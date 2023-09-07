@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #EFF6FF;
+}
+  
+  h1,h2,h3{
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .page {
+    background-color: rgb(247, 247, 247);
+    margin: 20px auto;
+    width: 1300px;
+    display: flex;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  .post-title{
+    font-size: 1rem;
+  }
+  
+  .media{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .facebook{
+    background-color: #255A9B;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    margin-right: 2rem;
+    width: 200px;
+  }
+
+  
+  .linkedin {
+    background-color: #0076B6;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    width: 200px;
+  }
+
+
+  .or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2rem 0;
+  }
+  
+
+  .or::before, .or::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #000000;
+  }
+    
+  
+  .input-dialog{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+
+  .input{
+    padding: 3px;
+    border: gray solid 1px;
+    width: 200px;
+  }
+  
+
+  .input:focus{
+    outline: none;
+    border-left: #7392b1 solid 2px;
+  }
+  
+  .type {
+    color: #7392b1;
+    margin-top: 2rem;
+  
+  }
+  
+  .input-categories{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+  }
+  
+  .input_radio{
+    margin: 0 0.5rem 0 0;
+  }
+  
+
+  .checkbox{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  .label-checkbox::after{
+    content: none;
+  }
+  
+  .knopka{
+    background-color: #0076B6;
+    color: #EFF6FF;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    min-width: 200px;
+  }
